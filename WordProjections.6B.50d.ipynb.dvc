@@ -1,0 +1,13 @@
+md5: ddaf74718c8e2122f50f3707949885fd
+cmd: papermill WordProjections.ipynb WordProjections.6B.50d.ipynb
+deps:
+- md5: 4a8b6e14c6b441538bb2af2092395ff3
+  path: WordProjections.ipynb
+- md5: 3f8fd0ef779c0f75a6f115c00a879501
+  path: data/glove.6B.50d.netcdf
+outs:
+- md5: 0c365aba06c0c1d7b495fc312460bd98
+  path: WordProjections.6B.50d.ipynb
+  cache: true
+  metric: false
+  persist: false
