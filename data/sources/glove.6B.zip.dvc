@@ -1,0 +1,7 @@
+md5: 7561a06538568a340ad941d422857df0
+outs:
+- md5: 056ea991adb4740ac6bf1b6d9b50408b
+  path: glove.6B.zip
+  cache: true
+  metric: false
+  persist: false

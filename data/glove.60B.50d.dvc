@@ -1,0 +1,12 @@
+md5: 8ae11f781a586addbdf45047523ec88f
+cmd: python prep-embedding.py --glove data/sources/glove.6B.zip glove.6B.50d.txt data/glove.6B.50d.netcdf
+wdir: ..
+deps:
+- md5: 056ea991adb4740ac6bf1b6d9b50408b
+  path: data/sources/glove.6B.zip
+outs:
+- md5: 3f8fd0ef779c0f75a6f115c00a879501
+  path: data/glove.6B.50d.netcdf
+  cache: true
+  metric: false
+  persist: false
