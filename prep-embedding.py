@@ -31,6 +31,7 @@ def import_glove(path, name):
 
     # The first column is the word
     wvs.rename(columns={0: 'word'}, inplace=True)
+    wvs.drop_duplicates('word', inplace=True)
     wvs.set_index('word', inplace=True)
     wvs.name = name
     
