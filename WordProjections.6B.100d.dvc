@@ -1,0 +1,13 @@
+md5: 1fa740257cf0f5561007e919ef4a4b57
+cmd: papermill -p emb_name glove.6B.100d WordProjections.ipynb WordProjections.6B.100d.ipynb
+deps:
+- md5: 18ce3b9d650412e31b1d40d719c9af22
+  path: WordProjections.ipynb
+- md5: 76fd6150c4a6037678f6994ef5e356cf
+  path: data/glove.6B.100d.netcdf
+outs:
+- md5: 2cd2b79dfa3e3689ebd18af88b0873c2
+  path: WordProjections.6B.100d.ipynb
+  cache: true
+  metric: false
+  persist: false
