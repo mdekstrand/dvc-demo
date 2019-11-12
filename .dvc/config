@@ -1,0 +1,6 @@
+['remote "piret"']
+url = s3://dvc-demo
+profile = piret-minio
+endpointurl = http://abyss.boisestate.edu:9000
+[core]
+remote = piret
