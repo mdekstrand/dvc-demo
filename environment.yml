@@ -1,0 +1,24 @@
+name: dvc-demo
+dependencies:
+- python=3.7
+- pip
+- pandas
+- seaborn
+- matplotlib
+- notebook
+- nbconvert
+- nbformat
+- xarray
+- pyarrow
+- docopt
+- contextlib2
+- gitpython
+- configparser
+- pyyaml
+- paramiko>=2.4.1
+- configobj
+- pillow
+- ply
+- pip:
+  - papermill
+  - dvc[s3]
