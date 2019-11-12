@@ -1,0 +1,6 @@
+md5: 4f8b5d0dd408e1aaac73378ec08091e8
+deps:
+- md5: 0c365aba06c0c1d7b495fc312460bd98
+  path: WordProjections.6B.50d.ipynb
+- md5: 2cd2b79dfa3e3689ebd18af88b0873c2
+  path: WordProjections.6B.100d.ipynb
