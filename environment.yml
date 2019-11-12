@@ -10,6 +10,7 @@ dependencies:
 - nbformat
 - xarray
 - pyarrow
+- netcdf4
 - docopt
 - contextlib2
 - gitpython
